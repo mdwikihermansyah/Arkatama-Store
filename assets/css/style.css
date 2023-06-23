@@ -1,0 +1,55 @@
+.bg-white {
+    background-color: white;
+}
+.bg-hijau {
+    background: #659E38;
+}
+.bg-abu {
+    background: #F4F4F4;
+}
+.text-hijau {
+    color: #659E38;
+}
+span{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.nav-item {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.logo-brand {
+    font-style: bold;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 48px;
+}
+.icon {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.75;
+}
+
+.card-footer{
+    background-color: white !important;
+    border-top: none;
+}
+.btn-success {
+    background-color: #659E38 !important;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: reguler;
+}
+/* responsif */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

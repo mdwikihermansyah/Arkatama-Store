@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(270deg, #D7EFDE 0%, rgba(210, 231, 214, 0) 50.52%, rgba(212, 235, 218, 0) 99.99%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: bold;
+}
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+}
+.forget {
+    text-decoration: none;
+    color: grey;
+}
+.form-control {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.btn-login {
+    width: 100%;
+    background: linear-gradient(89.79deg, #4299A3 0.18%, #2E696D 99.82%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.btn-login:hover,
+.btn-login:focus {
+    box-shadow: 0 0 1em 0.4em #8CC3BC;
+    transform: translateY(-0.1em);
+
+}
+p{
+    font-size: 1.125rem;
+}
+.daftar {
+    color: #2E696D;
+    text-decoration: none;
+}
+.copyright {
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+@media only screen and (max-width:768px) {
+    .hide {
+        display: none;
+    }
+}
